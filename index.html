@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay"></div>
+    </div>
+
+    <!-- Shared config (loaded first) -->
+    <script src="js/config.js"></script>
+
+    <!-- Game modules (filled by worktree branches) -->
+    <script src="js/engine.js"></script>
+    <script src="js/sprites.js"></script>
+    <script src="js/slingshot.js"></script>
+    <script src="js/physics.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/structures.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/scoring.js"></script>
+
+    <!-- Entry point -->
+    <script src="js/main.js"></script>
+</body>
+</html>
